@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="impl_1" LaunchDir="/home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_complete/lab2.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream"/>
+</Runs>
+

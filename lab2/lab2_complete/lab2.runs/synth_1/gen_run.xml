@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1497353967">
+  <File Type="VDS-TIMING-PB" Name="top_level_circuit_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_level_circuit_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="top_level_circuit.vds"/>
+  <File Type="PA-TCL" Name="top_level_circuit.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_level_circuit_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="top_level_circuit_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_level_circuit_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top_level_circuit.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/delay.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/delay.vhd"/>
+        <Attr Name="ImportTime" Val="1496066463"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/encoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/encoder.vhd"/>
+        <Attr Name="ImportTime" Val="1496071463"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/lab2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/lab2.vhd"/>
+        <Attr Name="ImportTime" Val="1497352606"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/oled_init.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/oled_init.vhd"/>
+        <Attr Name="ImportTime" Val="1496067110"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/oled_print.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/oled_print.vhd"/>
+        <Attr Name="ImportTime" Val="1496071389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/spi_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/spi_control.vhd"/>
+        <Attr Name="ImportTime" Val="1496071181"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/top_level_circuit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/top_level_circuit.vhd"/>
+        <Attr Name="ImportTime" Val="1496071034"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_level_circuit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab2_sources/lab2_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/lab2_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1496069850"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

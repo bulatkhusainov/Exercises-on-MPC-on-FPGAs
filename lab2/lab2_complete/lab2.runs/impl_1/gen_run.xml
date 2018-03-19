@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1497354045">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="top_level_circuit.drc"/>
+  <File Type="BG-BGN" Name="top_level_circuit.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="top_level_circuit.sysdef"/>
+  <File Type="BITSTR-MMI" Name="top_level_circuit.mmi"/>
+  <File Type="BITSTR-BMM" Name="top_level_circuit_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="top_level_circuit.nky"/>
+  <File Type="BITSTR-RBT" Name="top_level_circuit.rbt"/>
+  <File Type="BITSTR-MSK" Name="top_level_circuit.msk"/>
+  <File Type="BG-BIN" Name="top_level_circuit.bin"/>
+  <File Type="BG-BIT" Name="top_level_circuit.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_level_circuit_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_level_circuit_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_level_circuit_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_level_circuit_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_level_circuit_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="top_level_circuit_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_level_circuit_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_level_circuit_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_level_circuit_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_level_circuit_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_level_circuit_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="top_level_circuit_route_status.rpt"/>
+  <File Type="PLACE-CTRL" Name="top_level_circuit_control_sets_placed.rpt"/>
+  <File Type="PLACE-IO" Name="top_level_circuit_io_placed.rpt"/>
+  <File Type="PWROPT-TIMING" Name="top_level_circuit_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_level_circuit_placed.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="top_level_circuit_utilization_placed.pb"/>
+  <File Type="PHYSOPT-TIMING" Name="top_level_circuit_timing_summary_physopted.rpt"/>
+  <File Type="PWROPT-DRC" Name="top_level_circuit_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="top_level_circuit_pwropt.dcp"/>
+  <File Type="PLACE-UTIL" Name="top_level_circuit_utilization_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="top_level_circuit_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="OPT-TIMING" Name="top_level_circuit_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_level_circuit.hwdef"/>
+  <File Type="PLACE-CLK" Name="top_level_circuit_clock_utilization_placed.rpt"/>
+  <File Type="RDI-RDI" Name="top_level_circuit.vdi"/>
+  <File Type="PLACE-TIMING" Name="top_level_circuit_timing_summary_placed.rpt"/>
+  <File Type="INIT-TIMING" Name="top_level_circuit_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="top_level_circuit_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="top_level_circuit_opt.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="top_level_circuit_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_level_circuit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="top_level_circuit_incremental_reuse_placed.rpt"/>
+  <File Type="PA-TCL" Name="top_level_circuit.tcl"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_level_circuit_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="top_level_circuit_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="top_level_circuit_drc_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_level_circuit_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_level_circuit_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_level_circuit_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="top_level_circuit_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_level_circuit_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_level_circuit_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_level_circuit_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_level_circuit_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="top_level_circuit_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_level_circuit_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_level_circuit_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_level_circuit_power_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/delay.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/delay.vhd"/>
+        <Attr Name="ImportTime" Val="1496066463"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/encoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/encoder.vhd"/>
+        <Attr Name="ImportTime" Val="1496071463"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/lab2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/lab2.vhd"/>
+        <Attr Name="ImportTime" Val="1497352606"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/oled_init.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/oled_init.vhd"/>
+        <Attr Name="ImportTime" Val="1496067110"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/oled_print.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/oled_print.vhd"/>
+        <Attr Name="ImportTime" Val="1496071389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/spi_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/spi_control.vhd"/>
+        <Attr Name="ImportTime" Val="1496071181"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab2_sources/top_level_circuit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/top_level_circuit.vhd"/>
+        <Attr Name="ImportTime" Val="1496071034"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_level_circuit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab2_sources/lab2_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_sources/lab2_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1496069850"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

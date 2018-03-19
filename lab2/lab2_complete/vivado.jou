@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Jun 13 12:37:06 2017
+# Process ID: 5777
+# Current directory: /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_complete
+# Command line: vivado
+# Log file: /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_complete/vivado.log
+# Journal file: /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_complete/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project lab2 . -part xc7z020clg484-1
+set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
+import_files -norecurse {/home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/delay.vhd /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/top_level_circuit.vhd /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/oled_init.vhd /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/encoder.vhd /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/lab2.vhd /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/oled_print.vhd /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/spi_control.vhd}
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/lab2_constraints.xdc
+import_files -fileset constrs_1 /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_sources/lab2_constraints.xdc
+synth_design -rtl -name rtl_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_complete/lab2.runs/impl_1/top_level_circuit.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {/home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab2/lab2_complete/lab2.runs/impl_1/top_level_circuit.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

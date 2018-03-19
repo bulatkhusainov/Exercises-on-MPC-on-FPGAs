@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Jun 11 15:45:14 2017
+# Process ID: 13299
+# Current directory: /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab1/lab1_complete
+# Command line: vivado lab1_complete.xpr
+# Log file: /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab1/lab1_complete/vivado.log
+# Journal file: /home/bkhusain/hdrive/bulat_documents/events_conferences/Slovakia_summer_school/lab1/lab1_complete/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project lab1_complete.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source lab1_tb.tcl
+close_sim
+launch_simulation
+source lab1_tb.tcl
+close_sim
